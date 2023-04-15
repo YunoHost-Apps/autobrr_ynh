@@ -16,7 +16,7 @@ admindoc = "https://yunohost.org/packaging_apps"
 code = "https://github.com/autobrr/autobrr"
 
 [integration]
-yunohost = ">= 11.1.18"
+yunohost = ">= 11.1.17"
 architectures = "all"
 multi_instance = true
 ldap = false
