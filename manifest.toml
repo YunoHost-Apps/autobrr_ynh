@@ -3,18 +3,16 @@ packaging_format = 2
 id = "autobrr"
 name = "Autobrr"
 description.en = "Modern, easy to use download automation for torrents and usenet"
-description.fr = ""
+description.fr = "Automatisation de téléchargement pour les torrents et Usenet"
 
 version = "1.23.0~ynh1"
 
-maintainers = ["johndoe"]
+maintainers = ["eric_G"]
 
 [upstream]
 license = "free"
 website = "https://autobrr.com/"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+admindoc = "https://autobrr.com/installation/"
 code = "https://github.com/autobrr/autobrr"
 
 [integration]

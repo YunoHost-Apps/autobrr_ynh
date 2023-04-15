@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
