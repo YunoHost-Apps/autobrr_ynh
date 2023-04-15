@@ -1,0 +1,72 @@
+packaging_format = 2
+
+id = "autobrr"
+name = "Autobrr"
+description.en = "Modern, easy to use download automation for torrents and usenet"
+description.fr = ""
+
+version = "1.23.0~ynh1"
+
+maintainers = ["johndoe"]
+
+[upstream]
+license = "free"
+website = "https://autobrr.com/"
+demo = "https://demo.example.com"
+admindoc = "https://yunohost.org/packaging_apps"
+userdoc = "https://yunohost.org/apps"
+code = "https://github.com/autobrr/autobrr"
+
+[integration]
+yunohost = ">= 11.1.18"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/autobrr"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        amd64.url = "https://github.com/autobrr/autobrr/releases/download/v1.23.0/autobrr_1.23.0_linux_x86_64.tar.gz"
+        amd64.sha256 = "05c94c3468695fddee1905c2ff671c499648e1400b6064502fe0e805ccc16f6f"
+        arm64.url = "https://github.com/autobrr/autobrr/releases/download/v1.23.0/autobrr_1.23.0_linux_arm64.tar.gz"
+        arm64.sha256 = "3699622ee0c5d07fd36f24aa52cca9122d81637f803521fe2483844f45ff2d1a"
+        armhf.url = "https://github.com/autobrr/autobrr/releases/download/v1.23.0/autobrr_1.23.0_linux_armv6.tar.gz"
+        armhf.sha256 = "841f760c0cd8b1ff91714536dd5489d6e706afcb59b215509616ed98478af43a"
+        in_subdir = false
+        extract = true
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+
+    [resources.apt]
+    packages = "postgresql"
+
+    [resources.database]
+   type = "postgresql"
