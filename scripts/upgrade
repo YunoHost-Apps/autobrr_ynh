@@ -33,6 +33,7 @@ then
 fi
 
 chown -R $app:www-data "$install_dir"
+chmod +x "$install_dir/autobrr"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
