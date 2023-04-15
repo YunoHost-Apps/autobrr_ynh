@@ -3,14 +3,14 @@ packaging_format = 2
 id = "autobrr"
 name = "Autobrr"
 description.en = "Modern, easy to use download automation for torrents and usenet"
-description.fr = ""
+description.fr = "Automatisation de téléchargement pour les torrents et Usenet"
 
 version = "1.23.0~ynh1"
 
-maintainers = ["johndoe"]
+maintainers = ["eric_G"]
 
 [upstream]
-license = "free"
+license = "GPL-3.0-only"
 website = "https://autobrr.com/"
 admindoc = "https://yunohost.org/packaging_apps"
 code = "https://github.com/autobrr/autobrr"
@@ -51,6 +51,9 @@ ram.runtime = "50M"
         in_subdir = false
         extract = true
         autoupdate.strategy = "latest_github_tag"
+        autoupdate.asset.amd64 = "^autobrr_.*_linux_x86_64.tar.gz$"
+        autoupdate.asset.arm64 = "^autobrr_.*_linux_arm64.tar.gz$"
+        autoupdate.asset.armhf = "^autobrr_.*_linux_armv6.tar.gz$"
 
     [resources.system_user]
 

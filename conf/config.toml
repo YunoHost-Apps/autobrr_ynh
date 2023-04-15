@@ -25,7 +25,7 @@ baseUrl = "__PATH__/"
 #
 # Optional
 #
-#logPath = "log/autobrr.log"
+logPath = "/var/log/__APP__/__APP__.log"
 
 # Log level
 #
