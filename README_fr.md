@@ -28,7 +28,7 @@ autobrr est l'outil d'automatisation de téléchargement moderne pour torrents e
 
 * Site officiel de l’app : <https://autobrr.com/>
 * Dépôt de code officiel de l’app : <https://github.com/autobrr/autobrr>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_autobrr>
+* YunoHost Store: <https://apps.yunohost.org/app/autobrr>
 * Signaler un bug : <https://github.com/YunoHost-Apps/autobrr_ynh/issues>
 
 ## Informations pour les développeurs
