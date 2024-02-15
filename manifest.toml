@@ -49,10 +49,10 @@ ram.runtime = "50M"
         armhf.sha256 = "841f760c0cd8b1ff91714536dd5489d6e706afcb59b215509616ed98478af43a"
         in_subdir = false
         extract = true
-        #autoupdate.strategy = "latest_github_tag"
-        #autoupdate.asset.amd64 = "^autobrr_.*_linux_x86_64.tar.gz$"
-        #autoupdate.asset.arm64 = "^autobrr_.*_linux_arm64.tar.gz$"
-        #autoupdate.asset.armhf = "^autobrr_.*_linux_armv6.tar.gz$"
+        autoupdate.strategy = "latest_github_tag"
+        autoupdate.asset.amd64 = "^autobrr_.*_linux_x86_64.tar.gz$"
+        autoupdate.asset.arm64 = "^autobrr_.*_linux_arm64.tar.gz$"
+        autoupdate.asset.armhf = "^autobrr_.*_linux_armv6.tar.gz$"
 
     [resources.system_user]
 
