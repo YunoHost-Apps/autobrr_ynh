@@ -52,7 +52,7 @@ ram.runtime = "50M"
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^autobrr_.*_linux_x86_64.tar.gz$"
         autoupdate.asset.arm64 = "^autobrr_.*_linux_arm64.tar.gz$"
-        autoupdate.asset.armhf = "^autobrr_.*_linux_armv6.tar.gz$"
+        autoupdate.asset.armhf = "^autobrr_.*_linux_(arm|armv6).tar.gz$"
 
     [resources.system_user]
 
