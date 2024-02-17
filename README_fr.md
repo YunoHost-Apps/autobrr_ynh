@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 autobrr est l'outil d'automatisation de téléchargement moderne pour torrents et usenet. Avec l'inspiration et les idées d'outils comme trackarr, autodl-irssi et flexget, nous avons construit un outil qui peut tout faire, et plus encore.
 
-**Version incluse :** 1.23.0~ynh2
+**Version incluse :** v1.38.1~ynh1
 
 ## Captures d’écran
 
