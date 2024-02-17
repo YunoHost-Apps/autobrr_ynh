@@ -5,7 +5,7 @@ name = "Autobrr"
 description.en = "Modern, easy to use download automation for torrents and usenet"
 description.fr = "Automatisation de téléchargement pour les torrents et Usenet"
 
-version = "v1.38.1~ynh1"
+version = "1.38.1~ynh1"
 
 maintainers = ["eric_G"]
 
