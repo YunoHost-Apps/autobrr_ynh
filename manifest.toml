@@ -69,4 +69,4 @@ ram.runtime = "50M"
     packages = "postgresql"
 
     [resources.database]
-   type = "postgresql"
+    type = "postgresql"
