@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 autobrr est l'outil d'automatisation de téléchargement moderne pour torrents et usenet. Avec l'inspiration et les idées d'outils comme trackarr, autodl-irssi et flexget, nous avons construit un outil qui peut tout faire, et plus encore.
 
-**Version incluse :** 1.40.1~ynh1
+**Version incluse :** 1.41.0~ynh1
 
 ## Captures d’écran
 
