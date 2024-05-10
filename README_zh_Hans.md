@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Autobrr
+# YunoHost 上的 Autobrr
 
 [![集成程度](https://dash.yunohost.org/integration/autobrr.svg)](https://dash.yunohost.org/appci/app/autobrr) ![工作状态](https://ci-apps.yunohost.org/ci/badges/autobrr.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/autobrr.maintain.svg)
 
@@ -18,7 +18,7 @@
 
 autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
 
-**分发版本：** 1.41.0~ynh1
+**分发版本：** 1.42.0~ynh1
 
 ## 截图
 
