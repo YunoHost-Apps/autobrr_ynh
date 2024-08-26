@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
 
-**Versi terkirim:** 1.44.0~ynh1
+**Versi terkirim:** 1.45.0~ynh1
 
 ## Tangkapan Layar
 
@@ -27,7 +27,7 @@ autobrr is the modern download automation tool for torrents and usenet. With ins
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://autobrr.com/>
-- Repositori kode aplikasi hulu: <https://github.com/autobrr/autobrr>
+- Depot kode aplikasi hulu: <https://github.com/autobrr/autobrr>
 - Gudang YunoHost: <https://apps.yunohost.org/app/autobrr>
 - Laporkan bug: <https://github.com/YunoHost-Apps/autobrr_ynh/issues>
 
