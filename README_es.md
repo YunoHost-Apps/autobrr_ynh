@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
 
-**Versión actual:** 1.45.0~ynh1
+**Versión actual:** 1.49.0~ynh1
 
 ## Capturas
 
@@ -33,7 +33,7 @@ autobrr is the modern download automation tool for torrents and usenet. With ins
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/autobrr_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/autobrr_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
