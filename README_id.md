@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Autobrr untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/autobrr.svg)](https://ci-apps.yunohost.org/ci/apps/autobrr/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/autobrr.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/autobrr.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/autobrr)](https://ci-apps.yunohost.org/ci/apps/autobrr/)
+![Status kerja](https://apps.yunohost.org/badge/state/autobrr)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/autobrr)
 
 [![Pasang Autobrr dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=autobrr)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
 
-**Versi terkirim:** 1.49.0~ynh1
+**Versi terkirim:** 1.51.0~ynh1
 
 ## Tangkapan Layar
 
