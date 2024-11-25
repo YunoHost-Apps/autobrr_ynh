@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Autobrr voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/autobrr.svg)](https://ci-apps.yunohost.org/ci/apps/autobrr/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/autobrr.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/autobrr.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/autobrr)](https://ci-apps.yunohost.org/ci/apps/autobrr/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/autobrr)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/autobrr)
 
 [![Autobrr met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=autobrr)
 
@@ -18,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
 
-**Geleverde versie:** 1.49.0~ynh1
+**Geleverde versie:** 1.51.0~ynh1
 
 ## Schermafdrukken
 

@@ -5,7 +5,9 @@
 
 # Autobrr для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/autobrr.svg)](https://ci-apps.yunohost.org/ci/apps/autobrr/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/autobrr.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/autobrr.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/autobrr)](https://ci-apps.yunohost.org/ci/apps/autobrr/)
+![Состояние работы](https://apps.yunohost.org/badge/state/autobrr)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/autobrr)
 
 [![Установите Autobrr с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=autobrr)
 
@@ -18,7 +20,7 @@
 
 autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
 
-**Поставляемая версия:** 1.49.0~ynh1
+**Поставляемая версия:** 1.51.0~ynh1
 
 ## Снимки экрана
 
