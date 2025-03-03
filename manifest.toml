@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "autobrr"
@@ -21,6 +23,7 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
+
 sso = false
 
 disk = "50M"
@@ -43,19 +46,19 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-        [resources.sources.main]
-        amd64.url = "https://github.com/autobrr/autobrr/releases/download/v1.59.0/autobrr_1.59.0_linux_x86_64.tar.gz"
-        amd64.sha256 = "5b36036f8089ad612315036e3fcb229ee978893993be3736fa8f1065bf9c7291"
-        arm64.url = "https://github.com/autobrr/autobrr/releases/download/v1.59.0/autobrr_1.59.0_linux_arm64.tar.gz"
-        arm64.sha256 = "0c9f9f5ab8349393ae64351dae97b9978e5306cbcedf219f8285382bcc72c3e1"
-        armhf.url = "https://github.com/autobrr/autobrr/releases/download/v1.59.0/autobrr_1.59.0_linux_arm.tar.gz"
-        armhf.sha256 = "db75bb410b3f7c08abf4e955484a331c632d8d429d90e1f99d364ca456763d41"
-        in_subdir = false
-        extract = true
-        autoupdate.strategy = "latest_github_release"
-        autoupdate.asset.amd64 = "^autobrr_.*_linux_x86_64.tar.gz$"
-        autoupdate.asset.arm64 = "^autobrr_.*_linux_arm64.tar.gz$"
-        autoupdate.asset.armhf = "^autobrr_.*_linux_(arm|armv6).tar.gz$"
+    [resources.sources.main]
+    amd64.url = "https://github.com/autobrr/autobrr/releases/download/v1.59.0/autobrr_1.59.0_linux_x86_64.tar.gz"
+    amd64.sha256 = "5b36036f8089ad612315036e3fcb229ee978893993be3736fa8f1065bf9c7291"
+    arm64.url = "https://github.com/autobrr/autobrr/releases/download/v1.59.0/autobrr_1.59.0_linux_arm64.tar.gz"
+    arm64.sha256 = "0c9f9f5ab8349393ae64351dae97b9978e5306cbcedf219f8285382bcc72c3e1"
+    armhf.url = "https://github.com/autobrr/autobrr/releases/download/v1.59.0/autobrr_1.59.0_linux_arm.tar.gz"
+    armhf.sha256 = "db75bb410b3f7c08abf4e955484a331c632d8d429d90e1f99d364ca456763d41"
+    in_subdir = false
+    extract = true
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = "^autobrr_.*_linux_x86_64.tar.gz$"
+    autoupdate.asset.arm64 = "^autobrr_.*_linux_arm64.tar.gz$"
+    autoupdate.asset.armhf = "^autobrr_.*_linux_(arm|armv6).tar.gz$"
 
     [resources.system_user]
 
@@ -72,4 +75,4 @@ ram.runtime = "50M"
     packages = "postgresql"
 
     [resources.database]
-   type = "postgresql"
+    type = "postgresql"
