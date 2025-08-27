@@ -34,6 +34,8 @@ ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
 ynh_restore "/etc/systemd/system/$app.service"
 systemctl enable $app.service --quiet
 
+mkdir -p "/var/log/$app"
+chown "$app:$app" "/var/log/$app"
 yunohost service add $app --description="Automation for torrents and usenet" --log="/var/log/$app/$app.log"
 
 #=================================================
