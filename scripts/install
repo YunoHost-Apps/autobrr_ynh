@@ -22,8 +22,8 @@ ynh_config_add_nginx
 
 ynh_config_add_systemd
 
-mkdir -p "/var/log/$app"
-chown "$app:$app" "/var/log/$app"
+mkdir -p "/var/log/$app" "$datadir/.config/autobrr/definitions"
+chown "$app:$app" "/var/log/$app" "$datadir/.config/autobrr/definitions"
 yunohost service add $app --description="Automation for torrents and usenet" --log="/var/log/$app/$app.log"
 
 #=================================================
