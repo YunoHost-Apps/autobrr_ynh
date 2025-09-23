@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -36,6 +35,7 @@ systemctl enable $app.service --quiet
 
 mkdir -p "/var/log/$app"
 chown "$app:$app" "/var/log/$app"
+
 yunohost service add $app --description="Automation for torrents and usenet" --log="/var/log/$app/$app.log"
 
 #=================================================
