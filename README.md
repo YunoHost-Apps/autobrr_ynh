@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   Autobrr, packaged for YunoHost
 </h1>
 
-Modern, easy to use download automation for torrents and usenet
+Easy to use download automation for torrents and usenet
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://autobrr.com/)
 [![Version: 1.80.0~ynh1](https://img.shields.io/badge/Version-1.80.0~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/autobrr/)
