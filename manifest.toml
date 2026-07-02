@@ -4,10 +4,10 @@ packaging_format = 2
 
 id = "autobrr"
 name = "Autobrr"
-description.en = "Modern, easy to use download automation for torrents and usenet"
+description.en = "Easy to use download automation for torrents and usenet"
 description.fr = "Automatisation de téléchargement pour les torrents et Usenet"
 
-version = "1.80.0~ynh1"
+version = "1.81.0~ynh1"
 
 maintainers = []
 
@@ -17,7 +17,7 @@ website = "https://autobrr.com/"
 code = "https://github.com/autobrr/autobrr"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -46,12 +46,12 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/autobrr/autobrr/releases/download/v1.80.0/autobrr_1.80.0_linux_x86_64.tar.gz"
-    amd64.sha256 = "0fac737c6a97c2066d01e70ab6ea83f4dfffc0f37cb7d848bcdcf9605be49089"
-    arm64.url = "https://github.com/autobrr/autobrr/releases/download/v1.80.0/autobrr_1.80.0_linux_arm64.tar.gz"
-    arm64.sha256 = "12d8b36ce6e4dbbd86163715077dce5a6e6bc6dbec7f85d86b2afc4f10c8526e"
-    armhf.url = "https://github.com/autobrr/autobrr/releases/download/v1.80.0/autobrr_1.80.0_linux_arm.tar.gz"
-    armhf.sha256 = "e2436e186b6797ecec7bcec8f45794b8cba9e371fddd5b9b3ac0c5d3634a9dda"
+    amd64.url = "https://github.com/autobrr/autobrr/releases/download/v1.81.0/autobrr_1.81.0_linux_x86_64.tar.gz"
+    amd64.sha256 = "6cc8b9ad53caeaa9f568fb94b2c14f800753b4eb3e9908b9e989eec101c61c49"
+    arm64.url = "https://github.com/autobrr/autobrr/releases/download/v1.81.0/autobrr_1.81.0_linux_arm64.tar.gz"
+    arm64.sha256 = "d2d1482ec03f94b6c96dd08d68262f7878f9a6c313b1211fd87b12f22e8fc2e7"
+    armhf.url = "https://github.com/autobrr/autobrr/releases/download/v1.81.0/autobrr_1.81.0_linux_arm.tar.gz"
+    armhf.sha256 = "7b72c805d87d2fd3905f6ce444c2d4d018873cc7580b71abfed2d8f589bfc85f"
     in_subdir = false
     extract = true
     autoupdate.strategy = "latest_github_release"
